@@ -1,0 +1,16 @@
+Proposed Novelty (to be implemented later)
+
+Current work: Random Forest model predicts happy/unhappy customers from 15 order
+inputs, served by a Flask API and an Angular form, with GitHub Actions CI/CD.
+
+Planned novelty:
+1. Explainable predictions: add SHAP so each prediction shows which inputs
+   (e.g. delivery delay, freight value) pushed the result towards happy or unhappy.
+2. Review-text feature: use the Olist review comments (order_reviews data) with a
+   simple NLP model and combine it with the order features to improve accuracy.
+3. Model comparison and threshold tuning: compare Logistic Regression, Decision Tree,
+   Random Forest and XGBoost, and tune the decision threshold for the unhappy class.
+4. Public deployment: host the Flask API online so the GitHub Pages site can give
+   live predictions instead of a static demo.
+
+Expected outcome: a more accurate, explainable and publicly usable prediction tool.
