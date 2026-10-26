@@ -1,0 +1,17 @@
+{
+  "price": 25.0,
+  "freight_value": 16.79,
+  "product_weight_g": 400.0,
+  "product_length_cm": 18.0,
+  "product_height_cm": 20.0,
+  "product_width_cm": 11.0,
+  "payment_installments": 3.0,
+  "payment_value": 41.79,
+  "delivery_days": 10.0,
+  "estimated_days": 23,
+  "purchase_month": 10,
+  "order_status": "delivered",
+  "payment_type": "credit_card",
+  "customer_state": "SC",
+  "product_category_name": "utilidades_domesticas"
+}
